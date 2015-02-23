@@ -22,15 +22,18 @@ public class KeywordLookup {
         setLanguage("XPath", "xml"); // not RubyMine, not PyCharm
         setLanguage("RegExp", "regex");
 
-        // IntelliJ Ultimate Edition 13.1, WebStorm 8.0, PhpStorm 7.1, RubyMine 6.3, PyCharm 3.1
-        setLanguage("CSS", "css");
-        setLanguage("JQuery-CSS", "css", "jquery", "jqueryui", "jquerym");
-        setLanguage("LESS", "less", "css");
-        setLanguage("SASS", "sass", "compass", "bourbon", "neat", "css");
-        setLanguage("SCSS", "sass", "compass", "bourbon", "neat", "css");
-        setLanguage("Stylus", "stylus", "css"); // not PhpStorm
-        setLanguage("HAML", "haml");
-        setLanguage("CoffeeScript", "coffee", "javascript", "jquery", "jqueryui", "jquerym", "backbone", "marionette", "meteor", "sproutcore", "moo", "prototype", "bootstrap", "foundation", "lodash", "underscore", "ember", "sencha", "extjs", "titanium", "knockout", "zepto", "yui", "d3", "dojo", "nodejs", "express", "grunt", "mongoose", "moment", "require", "awsjs", "jasmine", "sinon", "chai", "cordova", "phonegap"); // not IntelliJ
+        // WebStorm 8.0, PhpStorm 7.1, RubyMine 6.3, PyCharm 3.1
+        addLanguage("CSS", "css");
+        addLanguage("JQuery-CSS", "css", "jquery", "jqueryui", "jquerym");
+        addLanguage("LESS", "less", "css");
+        addLanguage("SASS", "sass", "compass", "bourbon", "neat", "css");
+        addLanguage("SCSS", "sass", "compass", "bourbon", "neat", "css");
+        addLanguage("Stylus", "stylus", "css"); // not PhpStorm
+        addLanguage("HAML", "haml");
+        addLanguage("CoffeeScript", "coffee", "javascript", "jquery", "jqueryui", "jquerym", "backbone", "marionette", "meteor", "sproutcore", "moo", "prototype", "bootstrap", "foundation", "lodash", "underscore", "ember", "sencha", "extjs", "titanium", "knockout", "zepto", "yui", "d3", "dojo", "nodejs", "express", "grunt", "mongoose", "moment", "require", "awsjs", "jasmine", "sinon", "chai", "cordova", "phonegap");
+        addLanguage("JavaScript", "javascript", "jquery", "jqueryui", "jquerym", "backbone", "marionette", "meteor", "sproutcore", "moo", "prototype", "bootstrap", "foundation", "lodash", "underscore", "ember", "sencha", "extjs", "titanium", "knockout", "zepto", "yui", "d3", "dojo", "nodejs", "express", "grunt", "mongoose", "moment", "require", "awsjs", "jasmine", "sinon", "chai", "cordova", "phonegap", "esrijs");
+        addLanguage("MySQL", "mysql"); // not WebStorm
+        addLanguage("SQLite", "sqlite"); // not WebStorm
 
         setLanguage("JavaScript", (Object[])FileTypeSpecificKeyword.createList(
                 new String[]{"javascript", "jquery", "jqueryui", "jquerym", "backbone", "marionette", "meteor", "sproutcore", "moo", "prototype", "bootstrap", "foundation", "lodash", "underscore", "ember", "sencha", "extjs", "titanium", "knockout", "zepto", "yui", "d3", "dojo", "nodejs", "express", "grunt", "mongoose", "moment", "require", "awsjs", "jasmine", "sinon", "chai", "cordova", "phonegap", "angularjs"},
